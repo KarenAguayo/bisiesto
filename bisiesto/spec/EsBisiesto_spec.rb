@@ -7,6 +7,9 @@ RSpec.describe "bisiesto" do
     it "deberia devolver false para el anio 5" do
         expect(EsBisiesto(5)).to eq(false)
     end
+    it "deberia devolver true para el anio 400" do
+        expect(EsBisiesto(400)).to eq(true)
+    end
 end
 
 
